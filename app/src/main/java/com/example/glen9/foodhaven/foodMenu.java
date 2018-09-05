@@ -3,7 +3,7 @@ package com.example.glen9.foodhaven;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class mainMenu extends AppCompatActivity {
+public class foodMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

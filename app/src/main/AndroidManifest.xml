@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mainMenu" />
+        <activity android:name=".foodMenu" />
         <activity android:name=".queueSystem" />
         <activity android:name=".menu_page" />
         <activity android:name=".stallsMenu"></activity>
