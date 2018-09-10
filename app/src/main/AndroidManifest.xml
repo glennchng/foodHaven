@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.glen9.foodhaven">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +23,8 @@
         <activity android:name=".foodMenu" />
         <activity android:name=".queueSystem" />
         <activity android:name=".menu_page" />
-        <activity android:name=".stallsMenu"></activity>
+        <activity android:name=".stallsMenu" />
+        <activity android:name=".qrcode"></activity>
     </application>
 
 </manifest>
