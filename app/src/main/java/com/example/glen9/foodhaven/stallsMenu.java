@@ -28,7 +28,7 @@ public class stallsMenu extends AppCompatActivity {
         banmianBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(stallsMenu.this, menu_page.class);
+                Intent intent = new Intent(stallsMenu.this, foodMenu.class);
                 startActivity(intent);
             }
         });

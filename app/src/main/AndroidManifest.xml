@@ -21,9 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".foodMenu" />
-        <activity android:name=".queueSystem" />
-        <activity android:name=".menu_page" />
+        <activity android:name=".foodMenu" android:parentActivityName=".stallsMenu"/>
+        <activity android:name=".queueSystem" android:parentActivityName=".menu_page"/>
+        <activity android:name=".menu_page" android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".stallsMenu"
             android:parentActivityName=".menu_page" />

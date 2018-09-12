@@ -17,7 +17,7 @@ import java.util.TimerTask;
 public class waitingFood extends AppCompatActivity {
     private Button cancelButton;
     Timer timer;
-    private static final long timerCD = 30000;
+    private static final long timerCD = 10000;
     private TextView viewTimer;
     private CountDownTimer countDownTime;
     private long timeLeft = timerCD;
@@ -51,7 +51,7 @@ public class waitingFood extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                Intent intent = new Intent (waitingFood.this, eating.class);
+                Intent intent = new Intent (waitingFood.this, startEat.class);
                 startActivity(intent);
             }
         }.start();

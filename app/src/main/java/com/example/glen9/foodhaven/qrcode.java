@@ -58,7 +58,6 @@ public class qrcode extends AppCompatActivity {
             if (result.getContents() == null) {
                 Toast.makeText(this, "Scanning cancelled", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(this, result.getContents(), Toast.LENGTH_LONG).show();
                 timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override
@@ -66,7 +65,7 @@ public class qrcode extends AppCompatActivity {
                         Intent intent = new Intent(qrcode.this,thankYou.class);
                         startActivity(intent);
                     }
-                },3000);
+                },100);
             }
         }
         else {

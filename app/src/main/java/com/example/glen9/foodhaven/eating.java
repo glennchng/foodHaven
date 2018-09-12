@@ -28,7 +28,7 @@ public class eating extends AppCompatActivity {
         proceedScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (eating.this, MainActivity.class);
+                Intent intent = new Intent (eating.this, qrcode.class);
                 startActivity(intent);
             }
         });
