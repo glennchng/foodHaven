@@ -9,21 +9,21 @@ import android.widget.TextView;
 
 public class stallsMenu extends AppCompatActivity {
 
-    private Button back;
+    //private Button back;
     private TextView banmianBut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stalls_menu);
 
-        back = (Button) findViewById(R.id.backButton);
-        back.setOnClickListener(new View.OnClickListener() {
+        //back = (Button) findViewById(R.id.backButton);
+        /*back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(stallsMenu.this, menu_page.class);
                 startActivity(intent);
             }
-        });
+        });*/
         banmianBut = (TextView) findViewById(R.id.banmianBut);
         banmianBut.setOnClickListener(new View.OnClickListener() {
             @Override

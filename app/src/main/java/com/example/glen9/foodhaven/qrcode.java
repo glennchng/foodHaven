@@ -21,10 +21,14 @@ import com.google.zxing.Result;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import static android.Manifest.permission_group.CAMERA;
 
 public class qrcode extends AppCompatActivity {
     private Button scanButton;
+    Timer timer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +46,7 @@ public class qrcode extends AppCompatActivity {
                 integrator.setBeepEnabled(false);
                 integrator.setBarcodeImageEnabled(false);
                 integrator.initiateScan();
+
             }
         });
     }
@@ -54,6 +59,14 @@ public class qrcode extends AppCompatActivity {
                 Toast.makeText(this, "Scanning cancelled", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, result.getContents(), Toast.LENGTH_LONG).show();
+                timer = new Timer();
+                timer.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(qrcode.this,thankYou.class);
+                        startActivity(intent);
+                    }
+                },3000);
             }
         }
         else {

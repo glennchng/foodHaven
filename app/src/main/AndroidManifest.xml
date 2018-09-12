@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.glen9.foodhaven">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-feature android:name="android.hardware.camera"/>
-    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
         android:allowBackup="true"
@@ -23,8 +24,14 @@
         <activity android:name=".foodMenu" />
         <activity android:name=".queueSystem" />
         <activity android:name=".menu_page" />
-        <activity android:name=".stallsMenu" />
-        <activity android:name=".qrcode"></activity>
+        <activity
+            android:name=".stallsMenu"
+            android:parentActivityName=".menu_page" />
+        <activity android:name=".qrcode" />
+        <activity android:name=".thankYou" />
+        <activity android:name=".eating" />
+        <activity android:name=".startEat" />
+        <activity android:name=".waitingFood"></activity>
     </application>
 
 </manifest>

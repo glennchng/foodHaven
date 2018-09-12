@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("ShowToast")
     private void validate(String userId, String userPassword){
         if((userId.equals("admin")) && (userPassword.equals("123"))){
-            Intent intent = new Intent(MainActivity.this,qrcode.class);
+            Intent intent = new Intent(MainActivity.this,waitingFood.class);
             startActivity(intent);
         }else{
             Toast.makeText(getApplicationContext(),"ID:admin;PW:123",Toast.LENGTH_LONG).show();
