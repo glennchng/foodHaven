@@ -23,6 +23,7 @@ public class waitingFood extends AppCompatActivity {
     private long timeLeft = timerCD;
     private Timer calcTimer = new Timer();
     private Handler handler = new Handler();
+    private Boolean cancel = Boolean.FALSE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,8 @@ public class waitingFood extends AppCompatActivity {
         cancelButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (waitingFood.this,stallsMenu.class);
+                cancel = Boolean.TRUE;
+                Intent intent = new Intent (waitingFood.this,foodMenu.class);
                 startActivity(intent);
             }
         });
@@ -51,8 +53,10 @@ public class waitingFood extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                Intent intent = new Intent (waitingFood.this, startEat.class);
-                startActivity(intent);
+                if (!cancel){
+                    Intent intent = new Intent (waitingFood.this, startEat.class);
+                    startActivity(intent);
+                }
             }
         }.start();
 

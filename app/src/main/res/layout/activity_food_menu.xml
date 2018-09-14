@@ -138,7 +138,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Sliced Fish BeeHoon \n\n $3.50" />
+                    android:text="Sliced Fish BeeHoon \n\n$3.50" />
 
                 <ImageView
                     android:id="@+id/friedFish"
@@ -167,7 +167,7 @@
                 <ImageView
                     android:id="@+id/seafood"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/seafood_beehoon" />
 
@@ -178,12 +178,12 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Seafood BeeHoon \n\n $3.50" />
+                    android:text="Seafood BeeHoon \n\n$3.50" />
 
                 <ImageView
                     android:id="@+id/tomYam"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/tomyam_beehoon" />
 
@@ -198,6 +198,286 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/porkBall"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pork_ball_noodles" />
+
+                <TextView
+                    android:id="@+id/porkBallText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Pork Ball Noodles \n\n $3.50" />
+
+                <ImageView
+                    android:id="@+id/dumpling"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dumpling_noodles" />
+
+                <TextView
+                    android:id="@+id/dumplingText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Dumpling Noodles \n\n $3.50" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/koreanRamen"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/korean_ramen" />
+
+                <TextView
+                    android:id="@+id/koreanRamenText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Korean Ramen \n\n $3.00" />
+
+                <ImageView
+                    android:id="@+id/kChicken"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/k_chicken_ramen" />
+
+                <TextView
+                    android:id="@+id/kChickenText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="K Chicken Ramen \n\n $4.00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/kBeef"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/k_beef_ramen" />
+
+                <TextView
+                    android:id="@+id/kBeefText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="K Beef Ramen \n\n $4.00" />
+
+                <ImageView
+                    android:id="@+id/kKimchi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/k_kimchi_ramen" />
+
+                <TextView
+                    android:id="@+id/kKimchiText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="K KimChi Ramen \n\n $4.00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/kPork"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/k_pork_ramen" />
+
+                <TextView
+                    android:id="@+id/kPorkText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="K Pork Ramen \n\n $4.00" />
+
+                <ImageView
+                    android:id="@+id/slicedFishSoup"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sliced_fish_soup" />
+
+                <TextView
+                    android:id="@+id/slicedFishSoupText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sliced Fish Soup \n\n $4.00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/friedFishSoup"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/fried_fish_soup" />
+
+                <TextView
+                    android:id="@+id/friedFishSoupText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fried Fish Soup \n\n $4.00" />
+
+                <ImageView
+                    android:id="@+id/fishPorridge"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/fish_porridge" />
+
+                <TextView
+                    android:id="@+id/fishPorridgeText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fish Porridge \n\n $4.00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/seafoodSoup"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/seafood_soup" />
+
+                <TextView
+                    android:id="@+id/seafoodSoupText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Seafood Soup \n\n $4.00" />
+
+                <ImageView
+                    android:id="@+id/tomYamSoup"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/tom_yam_soup" />
+
+                <TextView
+                    android:id="@+id/tomYamSoupText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tom Yam Soup \n\n $4.00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bbqBeef"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bbq_beef_set" />
+
+                <TextView
+                    android:id="@+id/bbqBeefText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="BBQ Beef Set \n\n $4.00" />
+
+                <ImageView
+                    android:id="@+id/bbqChicken"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bbq_chicken_set" />
+
+                <TextView
+                    android:id="@+id/bbqChickenText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="BBQ Chicken Set \n\n $4.00" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
@@ -207,6 +487,7 @@
         android:layout_width="187dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:onClick="confirm"
         android:text="Confirm"
         app:layout_constraintBottom_toTopOf="@+id/wherePic"
         app:layout_constraintEnd_toEndOf="parent"
