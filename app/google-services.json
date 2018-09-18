@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "513202492020",
+    "firebase_url": "https://foodhaven-44e9f.firebaseio.com",
+    "project_id": "foodhaven-44e9f",
+    "storage_bucket": "foodhaven-44e9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513202492020:android:986fc4e1d5e587f4",
+        "android_client_info": {
+          "package_name": "com.example.glen9.foodhaven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513202492020-u05lk2btm7p9mhmptvdspj19gmkopvkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.glen9.foodhaven",
+            "certificate_hash": "34b8ac075f92b51eed45334e94b85086b61e7c1a"
+          }
+        },
+        {
+          "client_id": "513202492020-4a6ingp5q7bd9ik3qmjis0l8dgs8up7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPQoMeGgIHy7Dof2MLv1uc-XhX7-iDXm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513202492020-4a6ingp5q7bd9ik3qmjis0l8dgs8up7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

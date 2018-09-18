@@ -39,7 +39,6 @@ public class waitingFood extends AppCompatActivity {
             }
         });
 
-
         viewTimer = findViewById(R.id.countDown);
         countDownTime = new CountDownTimer(timeLeft,1000) {
             @Override
